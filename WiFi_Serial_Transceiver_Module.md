@@ -3,11 +3,11 @@ title: WiFi Serial Transceiver Module
 category: Makerpro
 bzurl: https://www.seeedstudio.com/WiFi-Serial-Transceiver-Module-w-ESP8266-p-1994.html
 oldwikiname: WiFi Serial Transceiver Module
-prodimagename:
+prodimagename: WiFi%20Serial%20Transceiver%20Module.jpg
 surveyurl: https://www.research.net/r/WiFi_Serial_Transceiver_Module
 sku: 114990085
-
 ---
+![](https://github.com/SeeedDocument/WiFi_Serial_Transceiver_Module/raw/master/img/WiFi%20Serial%20Transceiver%20Module.jpg)
 
 In this tutorial, we'll use a seeeduino to control the ESP8266 WiFi module to request a static page from the internet. This is a basic use of TCP socket, for other usage, please refer to the AT command guide of the module.
 
@@ -21,7 +21,7 @@ In this tutorial, we'll use a seeeduino to control the ESP8266 WiFi module to re
     We used a software serial to print some debugging information as there’s only one hardware serial on seeeduino board. But the limitation of software serial is that it can’t communicate in a higher baud rate than 19200. So part of the output from ESP module will be dropped because the baud rate 57600 of ESP module is higher than that of the software serial. If you have a board with more than one hardware serial (e.g. Arduino Mega 2560), the case will be easier.
 
 ## Step-By-Step
-
+---
 - **Step 1**: connect module as the following picture
 
 ![](https://github.com/SeeedDocument/WiFi_Serial_Transceiver_Module/raw/master/img/Wifi_connection.jpg)
@@ -138,7 +138,7 @@ In this tutorial, we'll use a seeeduino to control the ESP8266 WiFi module to re
 At last, Happy Hakcing! :)
 
 ## Related Projects
-
+---
 [Recipe Community](http://www.seeedstudio.com/recipe/) is an awesome place where makers share their amazing works here. Our makers have made a lot of awesome projects with esp8266, check this out!
 
 **WiFi Scanner -Know the WiFi Signal around you**
